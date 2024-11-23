@@ -44,3 +44,4 @@ include:
     include "Pantalla_Final.asm"
     include "Cuba.asm"
     include "Pantalla_Adios.asm"
+    include "Teclado.asm"

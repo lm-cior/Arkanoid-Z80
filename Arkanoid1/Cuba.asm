@@ -49,7 +49,7 @@ Dibuja_LateralDerecho:
     DEC D                    
     JR NZ, Dibuja_LateralDerecho  ; Repetir hasta completar las 22 filas
 
-Pala_Inicio:
-    CALL PALA_Inicio
+Llamado_pala:
+    CALL Pala_inicio
     RET
 

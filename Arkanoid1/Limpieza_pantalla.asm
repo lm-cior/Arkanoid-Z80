@@ -28,7 +28,7 @@ Bucle_Limpieza:
     
     INC E
     LD A, E
-    CP 24
+    CP 25
     LD A, 0
     JR C, Bucle_Limpieza
     RET

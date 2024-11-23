@@ -11,7 +11,7 @@ leer_sn_inicio:
     JR Z, Pantalla_Juego
     ; si se pulsa la N se pasa a la rutina que limpia la pantalla e imprime el mensaje Final de "Adiós"
     CP 'N'
-    JR Z, Pantalla_Final
+    JR Z, Pantalla_Adios
     JR leer_sn_inicio
     RET
 Pantalla_Juego:
@@ -73,6 +73,6 @@ ESPERAR_1_SN:
     OR C
     JR NZ, ESPERAR_1_SN
     RET
-Pantalla_Final:
+Pantalla_Adios:
     CALL PANTALLA_ADIOS_INICIO
     RET

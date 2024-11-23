@@ -1,4 +1,4 @@
-# file opened: C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm
+# file opened: C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm
   1   0000                  DEVICE ZXSPECTRUM48
   2   0000                  org $8000
   3   8000 31 00 00         LD SP, 0
@@ -43,7 +43,7 @@
  37   8051 18 ED            JR PARK1
  38   8053              include:
  39   8053                  include "Pantalla inicio Arkanoid.asm"
-# file opened: C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla inicio Arkanoid.asm
+# file opened: C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla inicio Arkanoid.asm
   1+  8053              ; Programa: RLE Extraordinaria
   2+  8053              ; Decodifica la imagen comprimida con RLE en la memoria de pantalla
   3+  8053              ;   Los datos comprimidos se organizan en tuplas (longitud, byte)
@@ -1695,9 +1695,9 @@
 359+  9681              ; Fin del Código del Profesor                                                                    |
 360+  9681              ;-------------------------------------------------------------------------------------------------
 361+  9681
-# file closed: C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla inicio Arkanoid.asm
+# file closed: C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla inicio Arkanoid.asm
  40   9681                  include "printat.asm"
-# file opened: C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm
+# file opened: C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm
   1+  9681              ; -------------------------------
   2+  9681              ; ZX Spectrum Text print library
   3+  9681              ; Daniel León - AOC - UFV 2020
@@ -1862,322 +1862,390 @@
 161+  9705
 162+  9705              CHARSET: incbin "charset.bin"			; Charset used
 163+  9A05
-# file closed: C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm
+# file closed: C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm
  41   9A05                  include "leer_sn.asm"
-# file opened: C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm
+# file opened: C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm
   1+  9A05              Mensa_SN:
   2+  9A05 00 00            DB 0, 0
   3+  9A07              leer_sn_inicio:
-  4+  9A07 06 20            LD B, 32 ; fila
-  5+  9A09 0E 17            LD C, 23 ; columna
+  4+  9A07 06 20            LD B, 32 ; nº de filas de la pantalla
+  5+  9A09 0E 17            LD C, 23 ; nº de columnas de la pantalla
   6+  9A0B 3E 06            LD A, 6
   7+  9A0D CD 25 9A         CALL LEER_SN
   8+  9A10 3A 05 9A         LD A, (Mensa_SN)
-  9+  9A13 FE 53            CP 'S'
- 10+  9A15 28 07            JR Z, Pantalla_Juego
- 11+  9A17 FE 4E            CP 'N'
- 12+  9A19 28 4B            JR Z, Pantalla_Final
- 13+  9A1B 18 EA            JR leer_sn_inicio
- 14+  9A1D C9               RET
- 15+  9A1E              Pantalla_Juego:
- 16+  9A1E CD DE 9A         CALL Limpieza_Pantalla_Inicio
- 17+  9A21 CD 65 9B         CALL CUBA_Inicio
- 18+  9A24 C9               RET
- 19+  9A25              LEER_SN:
- 20+  9A25 F5               PUSH AF
- 21+  9A26              LSN1:
- 22+  9A26 3E FD            LD A, $FD
- 23+  9A28 DB FE            IN A, ($FE)
- 24+  9A2A CB 4F            BIT 1, A
- 25+  9A2C 28 0F            JR Z, Puls_S
- 26+  9A2E 3E 7F            LD A, $7F
- 27+  9A30 DB FE            IN A, ($FE)
- 28+  9A32 CB 5F            BIT 3, A
- 29+  9A34 20 F0            JR NZ, LSN1
- 30+  9A36 3E 4E            LD A, 'N'
- 31+  9A38 32 05 9A         LD (Mensa_SN), A
- 32+  9A3B 18 02            JR LSN2
- 33+  9A3D              Puls_S:
- 34+  9A3D 3E 53            LD A, 'S'
- 35+  9A3F              LSN2:
- 36+  9A3F 32 05 9A         LD (Mensa_SN), A
- 37+  9A42 F1               POP AF
- 38+  9A43 CD 81 96         CALL PRINTAT
- 39+  9A46 3A 05 9A         LD A, (Mensa_SN)
- 40+  9A49 FE 53            CP 'S'
- 41+  9A4B 28 04            JR Z, LSN3
- 42+  9A4D 3E 7E            LD A, $7E
- 43+  9A4F 18 02            JR LSN4
- 44+  9A51              LSN3:
- 45+  9A51 3E FD            LD A, $FD
- 46+  9A53              LSN4:
- 47+  9A53 DB FE            IN A, ($FE)
- 48+  9A55 FE FF            CP $FF
- 49+  9A57 28 FA            JR Z, LSN4
- 50+  9A59 CD 5D 9A         CALL ESPERAR_SN
- 51+  9A5C C9               RET
- 52+  9A5D              ESPERAR_SN:
- 53+  9A5D 01 FF 3F         LD BC, $3FFF
- 54+  9A60              ESPERAR_1_SN:
- 55+  9A60 0B               DEC BC
- 56+  9A61 78               LD A, B
- 57+  9A62 B1               OR C
- 58+  9A63 20 FB            JR NZ, ESPERAR_1_SN
- 59+  9A65 C9               RET
- 60+  9A66              Pantalla_Final:
- 61+  9A66 CD AC 9B         CALL PANTALLA_ADIOS_INICIO
- 62+  9A69 C9               RET
- 63+  9A6A
-# file closed: C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm
+  9+  9A13                  ; si se pulsa la S se pasa a la rutina que limpia la pantalla e imprime la cuba
+ 10+  9A13 FE 53            CP 'S'
+ 11+  9A15 28 07            JR Z, Pantalla_Juego
+ 12+  9A17                  ; si se pulsa la N se pasa a la rutina que limpia la pantalla e imprime el mensaje Final de "Adiós"
+ 13+  9A17 FE 4E            CP 'N'
+ 14+  9A19 28 4B            JR Z, Pantalla_Adios
+ 15+  9A1B 18 EA            JR leer_sn_inicio
+ 16+  9A1D C9               RET
+ 17+  9A1E              Pantalla_Juego:
+ 18+  9A1E
+ 19+  9A1E                  ; ------------------------------------------------------------
+ 20+  9A1E                  ; Rutina para llamar a otros métodos
+ 21+  9A1E                  ; ------------------------------------------------------------
+ 22+  9A1E
+ 23+  9A1E CD BD 9A         CALL Limpieza_Pantalla_Inicio
+ 24+  9A21 CD 44 9B         CALL CUBA_Inicio
+ 25+  9A24 C9               RET
+ 26+  9A25              LEER_SN:
+ 27+  9A25 F5               PUSH AF
+ 28+  9A26              LSN1:
+ 29+  9A26
+ 30+  9A26                  ; ------------------------------------------------------------
+ 31+  9A26                  ; Comprobamos cual tecla está siendo pulsada, si la s o la n
+ 32+  9A26                  ; Si no hay ninguna que está siendo pulsada entonces se repite el bucle
+ 33+  9A26                  ; ------------------------------------------------------------
+ 34+  9A26
+ 35+  9A26 3E FD            LD A, $FD
+ 36+  9A28 DB FE            IN A, ($FE)
+ 37+  9A2A CB 4F            BIT 1, A
+ 38+  9A2C                  ; Si se reconoce que se pulsa una S, se asigna al registro A la letra S
+ 39+  9A2C 28 0F            JR Z, Puls_S
+ 40+  9A2E 3E 7F            LD A, $7F
+ 41+  9A30 DB FE            IN A, ($FE)
+ 42+  9A32 CB 5F            BIT 3, A
+ 43+  9A34 20 F0            JR NZ, LSN1
+ 44+  9A36                  ; Si se reconoce que se pulsa una N, se asigna al registro A la letra N
+ 45+  9A36 3E 4E            LD A, 'N'
+ 46+  9A38 32 05 9A         LD (Mensa_SN), A
+ 47+  9A3B 18 02            JR LSN2
+ 48+  9A3D              Puls_S:
+ 49+  9A3D 3E 53            LD A, 'S'
+ 50+  9A3F              LSN2:
+ 51+  9A3F 32 05 9A         LD (Mensa_SN), A
+ 52+  9A42 F1               POP AF
+ 53+  9A43 CD 81 96         CALL PRINTAT
+ 54+  9A46                  ; Comprobamos que en Mensa_SN esté registrada la tecla que queremos, bien sea la S o la N
+ 55+  9A46 3A 05 9A         LD A, (Mensa_SN)
+ 56+  9A49 FE 53            CP 'S'
+ 57+  9A4B 28 04            JR Z, LSN3
+ 58+  9A4D 3E 7E            LD A, $7E
+ 59+  9A4F 18 02            JR LSN4
+ 60+  9A51              LSN3:
+ 61+  9A51 3E FD            LD A, $FD
+ 62+  9A53              LSN4:
+ 63+  9A53 DB FE            IN A, ($FE)
+ 64+  9A55 FE FF            CP $FF
+ 65+  9A57 28 FA            JR Z, LSN4
+ 66+  9A59 CD 5D 9A         CALL ESPERAR_SN
+ 67+  9A5C C9               RET
+ 68+  9A5D              ESPERAR_SN:
+ 69+  9A5D 01 FF 3F         LD BC, $3FFF
+ 70+  9A60              ESPERAR_1_SN:
+ 71+  9A60 0B               DEC BC
+ 72+  9A61 78               LD A, B
+ 73+  9A62 B1               OR C
+ 74+  9A63 20 FB            JR NZ, ESPERAR_1_SN
+ 75+  9A65 C9               RET
+ 76+  9A66              Pantalla_Adios:
+ 77+  9A66 CD 8B 9B         CALL PANTALLA_ADIOS_INICIO
+ 78+  9A69 C9               RET
+# file closed: C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm
  42   9A6A                  include "Pala.asm"
-# file opened: C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm
-  1+  9A6A                  DEVICE ZXSPECTRUM48
-  2+  9A6A              PALA_Inicio:
-  3+  9A6A 3E 00            LD A, 0
-  4+  9A6C 21 ED 5A         LD HL, $5800+23*32+13
-  5+  9A6F D3 FE            OUT ($FE), A
-  6+  9A71 CD 78 9A         CALL imprimir_pala
-  7+  9A74 CD 8F 9A         CALL captura_tecla
-  8+  9A77 C9               RET
-  9+  9A78              imprimir_pala:
- 10+  9A78 F5               PUSH AF
- 11+  9A79 3E 12            LD A, %00010010
- 12+  9A7B 06 05            LD B, 5
- 13+  9A7D              bucle_imprimir_pala:
- 14+  9A7D 77               LD (HL), A
- 15+  9A7E 23               INC HL
- 16+  9A7F 10 FC            DJNZ bucle_imprimir_pala
- 17+  9A81 F1               POP AF
- 18+  9A82 C9               RET
- 19+  9A83              borra_pala:
- 20+  9A83 2B               DEC HL
- 21+  9A84 F5               PUSH AF
- 22+  9A85 3E 00            LD A, 0
- 23+  9A87 06 05            LD B, 5
- 24+  9A89              bucle_borrar_pala:
- 25+  9A89 77               LD (HL), A
- 26+  9A8A 2B               DEC HL
- 27+  9A8B 10 FC            DJNZ bucle_borrar_pala
- 28+  9A8D F1               POP AF
- 29+  9A8E C9               RET
- 30+  9A8F              captura_tecla:
- 31+  9A8F 3E FD            LD A, $FD
- 32+  9A91 DB FE            IN A, ($FE)
- 33+  9A93 CB 47            BIT 0, A
- 34+  9A95 28 15            JR Z, puedo_mover_izq
- 35+  9A97
- 36+  9A97 3E BF            LD A, $BF
- 37+  9A99 DB FE            IN A, ($FE)
- 38+  9A9B CB 4F            BIT 1, A
- 39+  9A9D 28 1D            JR Z, puedo_mover_dcha
- 40+  9A9F
- 41+  9A9F 3E FD            LD A, $FD
- 42+  9AA1 DB FE            IN A, ($FE)
- 43+  9AA3 CB 5F            BIT 3, A
- 44+  9AA5 28 27            JR Z, pulsar_salir
- 45+  9AA7
- 46+  9AA7 CD D5 9A         CALL ESPERAR
- 47+  9AAA 18 E3            JR captura_tecla
- 48+  9AAC
- 49+  9AAC
- 50+  9AAC              puedo_mover_izq
- 50+  9AAC
- 51+  9AAC 7D               LD A, L
- 52+  9AAD FE E7            CP ($E7)
- 53+  9AAF 38 DE            JR C, captura_tecla
- 54+  9AB1              mover_izquierda:
- 55+  9AB1 CD 83 9A         CALL borra_pala
- 56+  9AB4                  ; DEC HL
- 57+  9AB4 CD 78 9A         CALL imprimir_pala
- 58+  9AB7 CD D5 9A         CALL ESPERAR
- 59+  9ABA 18 D3            JR captura_tecla
- 60+  9ABC
- 61+  9ABC
- 62+  9ABC              puedo_mover_dcha:
- 63+  9ABC 7D               LD A, L
- 64+  9ABD FE FF            CP ($FF)
- 65+  9ABF 30 CE            JR NC, captura_tecla
- 66+  9AC1              mover_derecha:
- 67+  9AC1 CD 83 9A         CALL borra_pala
- 68+  9AC4 23               INC HL
- 69+  9AC5 23               INC HL
- 70+  9AC6 CD 78 9A         CALL imprimir_pala
- 71+  9AC9 CD D5 9A         CALL ESPERAR
- 72+  9ACC 18 C1            JR captura_tecla
- 73+  9ACE
- 74+  9ACE              pulsar_salir:
- 75+  9ACE CD DE 9A         CALL Limpieza_Pantalla_Inicio
- 76+  9AD1 CD 3A 9B         CALL Pantalla_Final_Inicio
- 77+  9AD4 C9               RET
- 78+  9AD5              ESPERAR:
- 79+  9AD5 01 11 16         LD BC, $1611
- 80+  9AD8              ESPERAR1:
- 81+  9AD8 0B               DEC BC
- 82+  9AD9 78               LD A, B
- 83+  9ADA B1               OR C
- 84+  9ADB 20 FB            JR NZ, ESPERAR1
- 85+  9ADD C9               RET
- 86+  9ADE
-# file closed: C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm
- 43   9ADE                  include "Limpieza_Pantalla.asm"
-# file opened: C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Limpieza_Pantalla.asm
-  1+  9ADE
-  2+  9ADE              Limpieza_Pantalla_Inicio:
-  3+  9ADE 3E 00            LD A, 0
-  4+  9AE0 06 00            LD B, 0
-  5+  9AE2 1E 00            LD E, 0
-  6+  9AE4 D3 FE            OUT($FE), A
-  7+  9AE6 21 00 58         LD HL, $5800
-  8+  9AE9              Bucle_Limpieza:
-  9+  9AE9 70               LD (HL), B
- 10+  9AEA 23               INC HL
- 11+  9AEB 3C               INC A
- 12+  9AEC FE 20            CP 32
- 13+  9AEE 38 F9            JR C, Bucle_Limpieza
- 14+  9AF0
- 15+  9AF0 1C               INC E
- 16+  9AF1 7B               LD A, E
- 17+  9AF2 FE 18            CP 24
- 18+  9AF4 3E 00            LD A, 0
- 19+  9AF6 38 F1            JR C, Bucle_Limpieza
- 20+  9AF8 C9               RET
- 21+  9AF9
- 22+  9AF9
- 23+  9AF9
-# file closed: C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Limpieza_Pantalla.asm
- 44   9AF9                  include "Pantalla_Final.asm"
-# file opened: C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm
-  1+  9AF9                  DEVICE ZXSPECTRUM48
-  2+  9AF9
-  3+  9AF9 3E 00            LD A, 0
-  4+  9AFB D3 FE            OUT ($FE), A
-  5+  9AFD
-  6+  9AFD C3 3A 9B         JP Pantalla_Final_Inicio
-  7+  9B00
-  8+  9B00 4C 61 20 70  TEXTO1: DB "La partida ha finalizado", 0
-  8+  9B04 61 72 74 69
-  8+  9B08 64 61 20 68
-  8+  9B0C 61 20 66 69
-  8+  9B10 6E 61 6C 69
-  8+  9B14 7A 61 64 6F
-  8+  9B18 00
-  9+  9B19 51 75 69 65  TEXTO2: DB "Quieres jugar otra partida? S/N ", 0
-  9+  9B1D 72 65 73 20
-  9+  9B21 6A 75 67 61
-  9+  9B25 72 20 6F 74
-  9+  9B29 72 61 20 70
-  9+  9B2D 61 72 74 69
-  9+  9B31 64 61 3F 20
-  9+  9B35 53 2F 4E 20
-  9+  9B39 00
- 10+  9B3A
- 11+  9B3A              Pantalla_Final_Inicio:
- 12+  9B3A DD 21 00 9B      LD IX, TEXTO1
- 13+  9B3E 06 01            LD B, 1
- 14+  9B40 0E 04            LD C, 4
- 15+  9B42 3E 01            LD A, 1
- 16+  9B44 CD 81 96         CALL PRINTAT
- 17+  9B47
- 18+  9B47 DD 21 19 9B      LD IX, TEXTO2
- 19+  9B4B 06 16            LD B, 22
- 20+  9B4D 0E 01            LD C, 1
- 21+  9B4F 3E 06            LD A, 6
- 22+  9B51 CD 81 96         CALL PRINTAT
- 23+  9B54
- 24+  9B54 CD 07 9A         CALL leer_sn_inicio
- 25+  9B57
- 26+  9B57 3E C6            LD A, 198
- 27+  9B59 32 DE 5A         LD ($5806 + 22*32+24), A
- 28+  9B5C
- 29+  9B5C 06 16            LD B, 22 ; fila
- 30+  9B5E 0E 18            LD C, 24  ;columna
- 31+  9B60 3E 06            LD A, 6   ;atributo
- 32+  9B62 C9               RET
- 33+  9B63
- 34+  9B63 18 FE        PANTALLA_FINAL_FIN: JR PANTALLA_FINAL_FIN
- 35+  9B65
-# file closed: C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm
- 45   9B65                  include "Cuba.asm"
-# file opened: C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm
-  1+  9B65                  DEVICE ZXSPECTRUM48
-  2+  9B65              	SLDOPT COMMENT WPMEM, LOGPOINT, ASSERTION
-  3+  9B65
-  4+  9B65              CUBA_Inicio:
-  5+  9B65 3E 00            LD A, 0
-  6+  9B67 D3 FE            OUT ($FE), A             ; Borde de la pantalla en negro
-  7+  9B69 21 00 58         LD HL, $5800             ; Cargamos la dirección inicial en HL
-  8+  9B6C
-  9+  9B6C
- 10+  9B6C              Fila_Superior:
- 11+  9B6C 06 09            LD B, %00001001          ; Guardamos en B el color de la cuba
- 12+  9B6E 0E 20            LD C, 32                 ; Guardamos en C el número de columnas
- 13+  9B70              Columnas_Superior:
- 14+  9B70 70               LD (HL), B               ; Ponemos el color en cada una de las columnas
- 15+  9B71 23               INC HL                   ; Incrementamos HL para avanzar a la siguiente columna
- 16+  9B72 0D               DEC C                    ; Decrementamos C para quitar la columna que ya ha sido pintada
- 17+  9B73 20 FB            JR NZ, Columnas_Superior ; Lo repetimos hasta que se pinten las 32 columnas
- 18+  9B75
- 19+  9B75 16 16            LD D, 22                 ; Número de filas para los bordes laterales
- 20+  9B77
- 21+  9B77              Dibuja_LateralIzquierdo:
- 22+  9B77 70               LD (HL), B                ; Pinta el borde izquierdo en la posición de HL
- 23+  9B78 D5               PUSH DE
- 24+  9B79 E5               PUSH HL                   ; Guardamos HL
- 25+  9B7A
- 26+  9B7A
- 27+  9B7A 7C               LD A, H
- 28+  9B7B C6 01            ADD A, 1                  ; Movemos a la siguiente columna
- 29+  9B7D 67               LD H, A                   ; Actualizamos H con la nueva columna
- 30+  9B7E 70               LD (HL), B                ; Pintar el borde
- 31+  9B7F
- 32+  9B7F E1               POP HL                    ; Recuperamos la posición original
- 33+  9B80 11 20 00         LD DE, $0020              ; Avanzamos 32 bytes a la siguiente fila
- 34+  9B83
- 35+  9B83 19               ADD HL, DE
- 36+  9B84 D1               POP DE
- 37+  9B85 15               DEC D                     ; Decrementamos D por la fila que ya se haya pintado
- 38+  9B86 20 EF            JR NZ, Dibuja_LateralIzquierdo
- 39+  9B88
- 40+  9B88 21 3F 58         LD HL, $583F             ; Iniciamos la segunda fila en el borde derecho de la cuba
- 41+  9B8B 16 17            LD D, 23
- 42+  9B8D
- 43+  9B8D              Dibuja_LateralDerecho:
- 44+  9B8D D5               PUSH DE
- 45+  9B8E 70               LD (HL), B               ; Pintamos el borde derecho en la posición de HL
- 46+  9B8F 11 20 00         LD DE, $0020             ; Se avanza 32 para poder pintar la misma columna slo que en una flia más abajo
- 47+  9B92 19               ADD HL, DE
- 48+  9B93 D1               POP DE
- 49+  9B94 15               DEC D
- 50+  9B95 20 F6            JR NZ, Dibuja_LateralDerecho  ; Repetir hasta completar las 22 filas
- 51+  9B97
- 52+  9B97              Pala_Inicio:
- 53+  9B97 CD 6A 9A         CALL PALA_Inicio
- 54+  9B9A C9               RET
- 55+  9B9B
-# file closed: C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm
- 46   9B9B                  include "Pantalla_Adios.asm"
-# file opened: C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Adios.asm
-  1+  9B9B              PANTALLA_ADIOS:
-  2+  9B9B 3E 00            LD A, 0
-  3+  9B9D D3 FE            OUT($FE), A
-  4+  9B9F
-  5+  9B9F C3 AC 9B         JP PANTALLA_ADIOS_INICIO
-  6+  9BA2 41 44 49 4F  JUGAR: DB "ADIOS!!!!", 0
-  6+  9BA6 53 21 21 21
-  6+  9BAA 21 00
-  7+  9BAC              PANTALLA_ADIOS_INICIO:
-  8+  9BAC
-  9+  9BAC CD DE 9A         CALL Limpieza_Pantalla_Inicio
- 10+  9BAF
- 11+  9BAF DD 21 A2 9B      LD IX, JUGAR
- 12+  9BB3 06 0A            LD B, 10
- 13+  9BB5 0E 0C            LD C, 12
- 14+  9BB7 3E 50            LD A, 80
- 15+  9BB9 CD 81 96         CALL PRINTAT
- 16+  9BBC C9               RET
- 17+  9BBD 18 FE        PANTALLA_ADIOS_FIN: JR PANTALLA_ADIOS_FIN
- 18+  9BBF
- 19+  9BBF
- 20+  9BBF
-# file closed: C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Adios.asm
-# file closed: C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm
+# file opened: C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm
+  1+  9A6A 10 00        POSICION: DB 16, 0
+  2+  9A6C              LONGITUDPALA: EQU 5
+  3+  9A6C              COLORPALA: EQU 2*8+2
+  4+  9A6C              CONTADOR: EQU $07FF
+  5+  9A6C              Pala_inicio
+  6+  9A6C CD 7A 9A         CALL DIBUJARPALA
+  7+  9A6F CD 9D 9B         CALL TECLADO
+  8+  9A72 CD 9C 9A         CALL NUEVAPOSICION
+  9+  9A75
+ 10+  9A75                  ; ----------------------
+ 11+  9A75                  ; Actualizar pelota aquí
+ 12+  9A75                  ;-----------------------
+ 13+  9A75
+ 14+  9A75 CD B4 9A         CALL ESPERAR
+ 15+  9A78 18 F2            JR Pala_inicio
+ 16+  9A7A              DIBUJARPALA:
+ 17+  9A7A 3A 6B 9A         LD A, (POSICION + 1)
+ 18+  9A7D B7               OR A
+ 19+  9A7E 28 05            JR Z, DIBUJARPALA1
+ 20+  9A80 0E 00            LD C, 0
+ 21+  9A82 CD 8E 9A         CALL DIBUJARPALACOLOR
+ 22+  9A85              DIBUJARPALA1:
+ 23+  9A85 3A 6A 9A         LD A, (POSICION)
+ 24+  9A88 0E 12            LD C, COLORPALA
+ 25+  9A8A CD 8E 9A         CALL DIBUJARPALACOLOR
+ 26+  9A8D C9               RET
+ 27+  9A8E              DIBUJARPALACOLOR:
+ 28+  9A8E 21 E0 5A         LD HL, $5B00 - 32
+ 29+  9A91 16 00            LD D, 0
+ 30+  9A93 5F               LD E, A
+ 31+  9A94 19               ADD HL, DE
+ 32+  9A95 06 05            LD B, LONGITUDPALA
+ 33+  9A97              DIBUJARPALACOLOR1:
+ 34+  9A97 71               LD (HL), C
+ 35+  9A98 23               INC HL
+ 36+  9A99 10 FC            DJNZ DIBUJARPALACOLOR1
+ 37+  9A9B C9               RET
+ 38+  9A9C              NUEVAPOSICION:
+ 39+  9A9C 78               LD A, B
+ 40+  9A9D B7               OR A
+ 41+  9A9E C8               RET Z
+ 42+  9A9F 3A 6A 9A         LD  A, (POSICION)
+ 43+  9AA2 80               ADD B
+ 44+  9AA3 B7               OR A ; A = A|A
+ 45+  9AA4 C8               RET Z
+ 46+  9AA5 FE 1B            CP 32 - LONGITUDPALA
+ 47+  9AA7 D0               RET NC
+ 48+  9AA8 47               LD B, A
+ 49+  9AA9 3A 6A 9A         LD A, (POSICION)
+ 50+  9AAC 32 6B 9A         LD (POSICION + 1), A
+ 51+  9AAF 78               LD A, B
+ 52+  9AB0 32 6A 9A         LD (POSICION), A
+ 53+  9AB3 C9               RET
+ 54+  9AB4              ESPERAR:
+ 55+  9AB4 01 FF 07         LD BC, CONTADOR
+ 56+  9AB7              ESPERAR1:
+ 57+  9AB7 0B               DEC BC
+ 58+  9AB8 78               LD A, B
+ 59+  9AB9 B1               OR C
+ 60+  9ABA 20 FB            JR NZ, ESPERAR1
+ 61+  9ABC C9               RET
+# file closed: C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm
+ 43   9ABD                  include "Limpieza_Pantalla.asm"
+# file opened: C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Limpieza_Pantalla.asm
+  1+  9ABD              ; --------------------------------------------------------------
+  2+  9ABD              ; Esta rutina se encarga de recorrer la pantalla en su totalidad y poner el color negro
+  3+  9ABD              ; tanto en el paper como en el ink
+  4+  9ABD              ; --------------------------------------------------------------
+  5+  9ABD
+  6+  9ABD              Limpieza_Pantalla_Inicio:
+  7+  9ABD
+  8+  9ABD                  ; --------------------------------------------------------------
+  9+  9ABD                  ; Establecemos los registros que se van a usar y la dirección de memoria inicial de la pantalla
+ 10+  9ABD                  ; --------------------------------------------------------------
+ 11+  9ABD
+ 12+  9ABD 3E 00            LD A, 0
+ 13+  9ABF 06 00            LD B, 0
+ 14+  9AC1 1E 00            LD E, 0
+ 15+  9AC3 D3 FE            OUT($FE), A
+ 16+  9AC5 21 00 58         LD HL, $5800
+ 17+  9AC8              Bucle_Limpieza:
+ 18+  9AC8
+ 19+  9AC8                  ; --------------------------------------------------------------
+ 20+  9AC8                  ; Bucle para limpiar la pantalla recorriendo filas y columnas
+ 21+  9AC8                  ; --------------------------------------------------------------
+ 22+  9AC8
+ 23+  9AC8 70               LD (HL), B
+ 24+  9AC9 23               INC HL
+ 25+  9ACA 3C               INC A
+ 26+  9ACB FE 20            CP 32
+ 27+  9ACD 38 F9            JR C, Bucle_Limpieza
+ 28+  9ACF
+ 29+  9ACF 1C               INC E
+ 30+  9AD0 7B               LD A, E
+ 31+  9AD1 FE 19            CP 25
+ 32+  9AD3 3E 00            LD A, 0
+ 33+  9AD5 38 F1            JR C, Bucle_Limpieza
+ 34+  9AD7 C9               RET
+# file closed: C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Limpieza_Pantalla.asm
+ 44   9AD8                  include "Pantalla_Final.asm"
+# file opened: C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm
+  1+  9AD8                  DEVICE ZXSPECTRUM48
+  2+  9AD8
+  3+  9AD8 3E 00            LD A, 0
+  4+  9ADA D3 FE            OUT ($FE), A
+  5+  9ADC
+  6+  9ADC C3 19 9B         JP Pantalla_Final_Inicio
+  7+  9ADF
+  8+  9ADF 4C 61 20 70  TEXTO1: DB "La partida ha finalizado", 0
+  8+  9AE3 61 72 74 69
+  8+  9AE7 64 61 20 68
+  8+  9AEB 61 20 66 69
+  8+  9AEF 6E 61 6C 69
+  8+  9AF3 7A 61 64 6F
+  8+  9AF7 00
+  9+  9AF8 51 75 69 65  TEXTO2: DB "Quieres jugar otra partida? S/X ", 0
+  9+  9AFC 72 65 73 20
+  9+  9B00 6A 75 67 61
+  9+  9B04 72 20 6F 74
+  9+  9B08 72 61 20 70
+  9+  9B0C 61 72 74 69
+  9+  9B10 64 61 3F 20
+  9+  9B14 53 2F 58 20
+  9+  9B18 00
+ 10+  9B19
+ 11+  9B19              Pantalla_Final_Inicio:
+ 12+  9B19 DD 21 DF 9A      LD IX, TEXTO1   // Escribimos el mensaje de finalizar partida
+ 13+  9B1D                  ; ----------------
+ 14+  9B1D                  ; Posicionamiento
+ 15+  9B1D                  ; ----------------
+ 16+  9B1D 06 01            LD B, 1
+ 17+  9B1F 0E 04            LD C, 4
+ 18+  9B21 3E 01            LD A, 1
+ 19+  9B23 CD 81 96         CALL PRINTAT
+ 20+  9B26
+ 21+  9B26 DD 21 F8 9A      LD IX, TEXTO2
+ 22+  9B2A 06 16            LD B, 22
+ 23+  9B2C 0E 01            LD C, 1
+ 24+  9B2E 3E 06            LD A, 6
+ 25+  9B30 CD 81 96         CALL PRINTAT
+ 26+  9B33
+ 27+  9B33 CD 07 9A         CALL leer_sn_inicio     // Leemos la respuesta a la pregunta
+ 28+  9B36
+ 29+  9B36 3E C6            LD A, 198
+ 30+  9B38 32 DE 5A         LD ($5806 + 22*32+24), A
+ 31+  9B3B
+ 32+  9B3B 06 16            LD B, 22 ; fila
+ 33+  9B3D 0E 18            LD C, 24  ;columna
+ 34+  9B3F 3E 06            LD A, 6   ;atributo
+ 35+  9B41 C9               RET
+ 36+  9B42
+ 37+  9B42 18 FE        PANTALLA_FINAL_FIN: JR PANTALLA_FINAL_FIN
+ 38+  9B44
+# file closed: C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm
+ 45   9B44                  include "Cuba.asm"
+# file opened: C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm
+  1+  9B44                  DEVICE ZXSPECTRUM48
+  2+  9B44              	SLDOPT COMMENT WPMEM, LOGPOINT, ASSERTION
+  3+  9B44
+  4+  9B44              CUBA_Inicio:
+  5+  9B44 3E 00            LD A, 0
+  6+  9B46 D3 FE            OUT ($FE), A             ; Borde de la pantalla en negro
+  7+  9B48 21 00 58         LD HL, $5800             ; Cargamos la dirección inicial en HL
+  8+  9B4B
+  9+  9B4B
+ 10+  9B4B              Fila_Superior:
+ 11+  9B4B 06 09            LD B, %00001001          ; Guardamos en B el color de la cuba
+ 12+  9B4D 0E 20            LD C, 32                 ; Guardamos en C el número de columnas
+ 13+  9B4F              Columnas_Superior:
+ 14+  9B4F 70               LD (HL), B               ; Ponemos el color en cada una de las columnas
+ 15+  9B50 23               INC HL                   ; Incrementamos HL para avanzar a la siguiente columna
+ 16+  9B51 0D               DEC C                    ; Decrementamos C para quitar la columna que ya ha sido pintada
+ 17+  9B52 20 FB            JR NZ, Columnas_Superior ; Lo repetimos hasta que se pinten las 32 columnas
+ 18+  9B54
+ 19+  9B54 16 16            LD D, 22                 ; Número de filas para los bordes laterales
+ 20+  9B56
+ 21+  9B56              Dibuja_LateralIzquierdo:
+ 22+  9B56 70               LD (HL), B                ; Pinta el borde izquierdo en la posición de HL
+ 23+  9B57 D5               PUSH DE
+ 24+  9B58 E5               PUSH HL                   ; Guardamos HL
+ 25+  9B59
+ 26+  9B59
+ 27+  9B59 7C               LD A, H
+ 28+  9B5A C6 01            ADD A, 1                  ; Movemos a la siguiente columna
+ 29+  9B5C 67               LD H, A                   ; Actualizamos H con la nueva columna
+ 30+  9B5D 70               LD (HL), B                ; Pintar el borde
+ 31+  9B5E
+ 32+  9B5E E1               POP HL                    ; Recuperamos la posición original
+ 33+  9B5F 11 20 00         LD DE, $0020              ; Avanzamos 32 bytes a la siguiente fila
+ 34+  9B62
+ 35+  9B62 19               ADD HL, DE
+ 36+  9B63 D1               POP DE
+ 37+  9B64 15               DEC D                     ; Decrementamos D por la fila que ya se haya pintado
+ 38+  9B65 20 EF            JR NZ, Dibuja_LateralIzquierdo
+ 39+  9B67
+ 40+  9B67 21 3F 58         LD HL, $583F             ; Iniciamos la segunda fila en el borde derecho de la cuba
+ 41+  9B6A 16 17            LD D, 23
+ 42+  9B6C
+ 43+  9B6C              Dibuja_LateralDerecho:
+ 44+  9B6C D5               PUSH DE
+ 45+  9B6D 70               LD (HL), B               ; Pintamos el borde derecho en la posición de HL
+ 46+  9B6E 11 20 00         LD DE, $0020             ; Se avanza 32 para poder pintar la misma columna slo que en una flia más abajo
+ 47+  9B71 19               ADD HL, DE
+ 48+  9B72 D1               POP DE
+ 49+  9B73 15               DEC D
+ 50+  9B74 20 F6            JR NZ, Dibuja_LateralDerecho  ; Repetir hasta completar las 22 filas
+ 51+  9B76
+ 52+  9B76              Llamado_pala:
+ 53+  9B76 CD 6C 9A         CALL Pala_inicio
+ 54+  9B79 C9               RET
+ 55+  9B7A
+# file closed: C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm
+ 46   9B7A                  include "Pantalla_Adios.asm"
+# file opened: C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Adios.asm
+  1+  9B7A              PANTALLA_ADIOS:
+  2+  9B7A 3E 00            LD A, 0
+  3+  9B7C D3 FE            OUT($FE), A
+  4+  9B7E
+  5+  9B7E C3 8B 9B         JP PANTALLA_ADIOS_INICIO
+  6+  9B81 41 44 49 4F  JUGAR: DB "ADIOS!!!!", 0    // Comentario el cual queremos que aparezca en pantalla
+  6+  9B85 53 21 21 21
+  6+  9B89 21 00
+  7+  9B8B              PANTALLA_ADIOS_INICIO:
+  8+  9B8B
+  9+  9B8B CD BD 9A         CALL Limpieza_Pantalla_Inicio   // Llamamos a limpiar pantalla para que cuando se ponga el mensaje de despedida, solo aparezca el mensaje
+ 10+  9B8E
+ 11+  9B8E DD 21 81 9B      LD IX, JUGAR          // Escribe el mensaje
+ 12+  9B92
+ 13+  9B92                  ; ----------------
+ 14+  9B92                  ; Posicionamiento
+ 15+  9B92                  ; ----------------
+ 16+  9B92 06 0A            LD B, 10
+ 17+  9B94 0E 0C            LD C, 12
+ 18+  9B96 3E 50            LD A, 80
+ 19+  9B98
+ 20+  9B98 CD 81 96         CALL PRINTAT
+ 21+  9B9B
+ 22+  9B9B 18 FE        PANTALLA_ADIOS_FIN: JR PANTALLA_ADIOS_FIN
+ 23+  9B9D
+# file closed: C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Adios.asm
+ 47   9B9D                  include "Teclado.asm"
+# file opened: C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm
+  1+  9B9D              TECLADO:
+  2+  9B9D 16 00            LD D, 0
+  3+  9B9F              TECLADO1:
+  4+  9B9F 01 FE FD         LD BC, $FDFE ; recogemos la fila de teclas de A
+  5+  9BA2 ED 78            IN A, (C) ; hacemos pantallazo
+  6+  9BA4 E6 1F            AND $1F ; A = A & 1F
+  7+  9BA6 FE 1F            CP $1F
+  8+  9BA8 20 11            JR NZ, TECLADO2 ; si A no es igual que $1f se va a teclado 2
+  9+  9BAA 01 FE BF         LD BC, $BFFE
+ 10+  9BAD ED 78            IN A, (C)
+ 11+  9BAF E6 1F            AND $1F ; A = A & 1F
+ 12+  9BB1 FE 1F            CP $1F
+ 13+  9BB3 20 18            JR NZ, TECLADO4
+ 14+  9BB5 15               DEC D
+ 15+  9BB6 20 E7            JR NZ, TECLADO1
+ 16+  9BB8 06 00            LD B, 0
+ 17+  9BBA C9               RET
+ 18+  9BBB              TECLADO2:
+ 19+  9BBB
+ 20+  9BBB                  ; ---------------
+ 21+  9BBB                  ; Si el usuario teclea la A se mueve a la izquierda
+ 22+  9BBB                  ; ---------------
+ 23+  9BBB
+ 24+  9BBB CB 47            BIT 0, A  ; Z != A[0] // Comprobamos que teclee la letra A
+ 25+  9BBD 20 04            JR NZ, TECLADO3 ; si no lo hace vamos a teclado3
+ 26+  9BBF 06 FF            LD B, -1 ; La posición que tengo la decremento 1
+ 27+  9BC1
+ 28+  9BC1 18 12            JR TECLADOFIN
+ 29+  9BC3              TECLADO3:
+ 30+  9BC3
+ 31+  9BC3                  ; ---------------
+ 32+  9BC3                  ; Si el usuario teclea la F se muestra pantalla de fin
+ 33+  9BC3                  ; ---------------
+ 34+  9BC3
+ 35+  9BC3 CB 5F            BIT 3, A
+ 36+  9BC5 20 D8            JR NZ, TECLADO1
+ 37+  9BC7
+ 38+  9BC7 CD BD 9A         CALL Limpieza_Pantalla_Inicio
+ 39+  9BCA CD 19 9B         CALL Pantalla_Final_Inicio
+ 40+  9BCD              TECLADO4:
+ 41+  9BCD
+ 42+  9BCD                  ; ---------------
+ 43+  9BCD                  ; Si el usuario teclea la D se mueve a la derecha
+ 44+  9BCD                  ; ---------------
+ 45+  9BCD
+ 46+  9BCD CB 4F            BIT 1, A ; comprobamos si teclea la L
+ 47+  9BCF 20 CE            JR NZ, TECLADO1 ; si no, vuelve a teclado1
+ 48+  9BD1 06 01            LD B, 1 ; aumentamos posicion en 1
+ 49+  9BD3
+ 50+  9BD3 18 00            JR TECLADOFIN
+ 51+  9BD5              TECLADOFIN:
+ 52+  9BD5 00               NOP
+ 53+  9BD6 00               NOP
+ 54+  9BD7 00               NOP
+ 55+  9BD8 00               NOP
+ 56+  9BD9 00               NOP
+ 57+  9BDA 15               DEC D
+ 58+  9BDB 20 F8            JR NZ, TECLADOFIN
+ 59+  9BDD C9               RET
+# file closed: C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm
+# file closed: C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm

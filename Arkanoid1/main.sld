@@ -1,436 +1,461 @@
 |SLD.data.version|1
 ||K|KEYWORDS|WPMEM,LOGPOINT,ASSERTION
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|1||0|-1|-1|Z|pages.size:16384,pages.count:4,slots.count:4,slots.adr:0,16384,32768,49152
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|3||0|2|32768|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|4||0|2|32771|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|5||0|2|32774|F|Jugar
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|5||0|2|32774|L|,Jugar,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|8||0|2|32795|F|inicio
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|8||0|2|32795|L|,inicio,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|9||0|2|32795|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|10||0|2|32797|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|11||0|2|32799|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|12||0|2|32802|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|13||0|2|32806|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|14||0|2|32808|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|15||0|2|32810|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|16||0|2|32812|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|17||0|2|32815|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|18||0|2|32817|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|19||0|2|32820|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|20||0|2|32823|F|fin
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|20||0|2|32823|L|,fin,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|21||0|2|32823|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|22||0|2|32825|F|Pantalla_Arkanoid
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|22||0|2|32825|L|,Pantalla_Arkanoid,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|23||0|2|32825|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|24||0|2|32828|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|25||0|2|32832|F|PARK1
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|25||0|2|32832|L|,PARK1,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|26||0|2|32832|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|27||0|2|32835|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|28||0|2|32836|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|29||0|2|32837|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|30||0|2|32839|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|31||0|2|32840|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|32||0|2|32843|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|33||0|2|32845|F|PARK2
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|33||0|2|32845|L|,PARK2,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|34||0|2|32845|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|35||0|2|32846|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|36||0|2|32847|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|37||0|2|32849|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|38||0|2|32851|F|include
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\main.asm|38||0|2|32851|L|,include,
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla inicio Arkanoid.asm|13||0|-1|-1|Z|pages.size:16384,pages.count:4,slots.count:4,slots.adr:0,16384,32768,49152
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla inicio Arkanoid.asm|15||0|2|32851|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla inicio Arkanoid.asm|32||0|2|32854|F|Main_Alumno
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla inicio Arkanoid.asm|32||0|2|32854|L|,Main_Alumno,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla inicio Arkanoid.asm|57||0|2|32854|F|LeerDataRLE
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla inicio Arkanoid.asm|57||0|2|32854|L|,LeerDataRLE,
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla inicio Arkanoid.asm|81||0|2|32854|F|EscribirNData
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla inicio Arkanoid.asm|81||0|2|32854|L|,EscribirNData,
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla inicio Arkanoid.asm|99||0|2|32854|F|RLEData
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla inicio Arkanoid.asm|99||0|2|32854|L|,RLEData,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|14||0|2|38529|F|PRINTAT
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|14||0|2|38529|L|,PRINTAT,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|14||0|2|38529|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|20||0|2|38532|F|PRINTSTR
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|20||0|2|38532|L|,PRINTSTR,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|20||0|2|38532|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|21||0|2|38535|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|22||0|2|38536|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|23||0|2|38537|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|24||0|2|38540|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|25||0|2|38542|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|32||0|2|38544|F|PREP_PRT
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|32||0|2|38544|L|,PREP_PRT,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|32||0|2|38544|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|33||0|2|38547|F|PREP_PRT_2
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|33||0|2|38547|L|,PREP_PRT_2,
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|33||0|2|38547|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|34||0|2|38550|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|45||0|2|38553|F|CRtoSCREEN
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|45||0|2|38553|L|,CRtoSCREEN,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|46||0|2|38553|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|47||0|2|38554|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|48||0|2|38556|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|49||0|2|38558|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|51||0|2|38559|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|52||0|2|38560|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|53||0|2|38562|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|54||0|2|38563|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|55||0|2|38564|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|56||0|2|38565|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|57||0|2|38566|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|58||0|2|38567|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|59||0|2|38570|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|72||0|2|38571|F|CRtoATTR
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|72||0|2|38571|L|,CRtoATTR,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|73||0|2|38571|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|74||0|2|38572|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|75||0|2|38573|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|76||0|2|38574|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|77||0|2|38575|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|78||0|2|38576|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|79||0|2|38578|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|80||0|2|38580|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|82||0|2|38581|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|83||0|2|38582|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|84||0|2|38584|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|85||0|2|38585|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|87||0|2|38586|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|88||0|2|38589|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|96||0|2|38590|F|PRINTCHNUM
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|96||0|2|38590|L|,PRINTCHNUM,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|97||0|2|38590|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|98||0|2|38592|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|99||0|2|38593|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|100||0|2|38594|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|101||0|2|38595|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|102||0|2|38596|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|103||0|2|38599|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|104||0|2|38600|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|112||0|2|38601|F|PRINTCHAR
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|112||0|2|38601|L|,PRINTCHAR,
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|113||0|2|38601|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|114||0|2|38603|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|116||0|2|38606|F|BYTEPCHAR
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|116||0|2|38606|L|,BYTEPCHAR,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|116||0|2|38606|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|117||0|2|38607|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|118||0|2|38608|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|119||0|2|38609|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|120||0|2|38610|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|121||0|2|38612|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|122||0|2|38615|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|123||0|2|38618|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|124||0|2|38619|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|125||0|2|38622|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|126||0|2|38623|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|127||0|2|38626|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|128||0|2|38627|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|137||0|2|38628|F|INK2PAPER
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|137||0|2|38628|L|,INK2PAPER,
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|137||0|2|38628|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|138||0|2|38631|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|139||0|2|38633|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|140||0|2|38634|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|141||0|2|38635|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|142||0|2|38636|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|143||0|2|38638|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|144||0|2|38641|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|150||0|2|38642|F|CLEARSCR
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|150||0|2|38642|L|,CLEARSCR,
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|150||0|2|38642|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|151||0|2|38645|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|152||0|2|38648|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|153||0|2|38651|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|154||0|2|38653|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|155||0|2|38655|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|158:1:14||0|2|38656|F|SCR_CUR_PTR
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|158:1:14||0|2|38656|L|,SCR_CUR_PTR,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|159||0|2|38658|F|SCR_ATTR_PTR
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|159||0|2|38658|L|,SCR_ATTR_PTR,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|160||0|2|38660|F|PRINT_ATTR
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|160||0|2|38660|L|,PRINT_ATTR,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|162||0|2|38661|F|CHARSET
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\printat.asm|162||0|2|38661|L|,CHARSET,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|1||0|2|39429|F|Mensa_SN
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|1||0|2|39429|L|,Mensa_SN,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|3||0|2|39431|F|leer_sn_inicio
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|3||0|2|39431|L|,leer_sn_inicio,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|4||0|2|39431|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|5||0|2|39433|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|6||0|2|39435|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|7||0|2|39437|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|8||0|2|39440|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|9||0|2|39443|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|10||0|2|39445|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|11||0|2|39447|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|12||0|2|39449|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|13||0|2|39451|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|14||0|2|39453|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|15||0|2|39454|F|Pantalla_Juego
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|15||0|2|39454|L|,Pantalla_Juego,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|16||0|2|39454|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|17||0|2|39457|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|18||0|2|39460|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|19||0|2|39461|F|LEER_SN
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|19||0|2|39461|L|,LEER_SN,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|20||0|2|39461|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|21||0|2|39462|F|LSN1
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|21||0|2|39462|L|,LSN1,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|22||0|2|39462|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|23||0|2|39464|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|24||0|2|39466|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|25||0|2|39468|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|26||0|2|39470|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|27||0|2|39472|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|28||0|2|39474|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|29||0|2|39476|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|30||0|2|39478|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|31||0|2|39480|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|32||0|2|39483|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|33||0|2|39485|F|Puls_S
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|33||0|2|39485|L|,Puls_S,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|34||0|2|39485|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|35||0|2|39487|F|LSN2
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|35||0|2|39487|L|,LSN2,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|36||0|2|39487|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|37||0|2|39490|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|38||0|2|39491|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|39||0|2|39494|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|40||0|2|39497|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|41||0|2|39499|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|42||0|2|39501|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|43||0|2|39503|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|44||0|2|39505|F|LSN3
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|44||0|2|39505|L|,LSN3,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|45||0|2|39505|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|46||0|2|39507|F|LSN4
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|46||0|2|39507|L|,LSN4,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|47||0|2|39507|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|48||0|2|39509|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|49||0|2|39511|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|50||0|2|39513|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|51||0|2|39516|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|52||0|2|39517|F|ESPERAR_SN
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|52||0|2|39517|L|,ESPERAR_SN,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|53||0|2|39517|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|54||0|2|39520|F|ESPERAR_1_SN
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|54||0|2|39520|L|,ESPERAR_1_SN,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|55||0|2|39520|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|56||0|2|39521|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|57||0|2|39522|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|58||0|2|39523|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|59||0|2|39525|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|60||0|2|39526|F|Pantalla_Final
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|60||0|2|39526|L|,Pantalla_Final,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|61||0|2|39526|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\leer_sn.asm|62||0|2|39529|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|1||0|-1|-1|Z|pages.size:16384,pages.count:4,slots.count:4,slots.adr:0,16384,32768,49152
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|2||0|2|39530|F|PALA_Inicio
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|2||0|2|39530|L|,PALA_Inicio,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|3||0|2|39530|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|4||0|2|39532|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|5||0|2|39535|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|6||0|2|39537|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|7||0|2|39540|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|8||0|2|39543|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|9||0|2|39544|F|imprimir_pala
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|9||0|2|39544|L|,imprimir_pala,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|10||0|2|39544|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|11||0|2|39545|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|12||0|2|39547|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|13||0|2|39549|F|bucle_imprimir_pala
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|13||0|2|39549|L|,bucle_imprimir_pala,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|14||0|2|39549|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|15||0|2|39550|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|16||0|2|39551|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|17||0|2|39553|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|18||0|2|39554|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|19||0|2|39555|F|borra_pala
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|19||0|2|39555|L|,borra_pala,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|20||0|2|39555|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|21||0|2|39556|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|22||0|2|39557|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|23||0|2|39559|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|24||0|2|39561|F|bucle_borrar_pala
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|24||0|2|39561|L|,bucle_borrar_pala,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|25||0|2|39561|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|26||0|2|39562|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|27||0|2|39563|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|28||0|2|39565|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|29||0|2|39566|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|30||0|2|39567|F|captura_tecla
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|30||0|2|39567|L|,captura_tecla,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|31||0|2|39567|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|32||0|2|39569|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|33||0|2|39571|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|34||0|2|39573|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|36||0|2|39575|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|37||0|2|39577|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|38||0|2|39579|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|39||0|2|39581|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|41||0|2|39583|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|42||0|2|39585|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|43||0|2|39587|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|44||0|2|39589|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|46||0|2|39591|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|47||0|2|39594|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|50:1:18||0|2|39596|F|puedo_mover_izq
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|50:1:18||0|2|39596|L|,puedo_mover_izq,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|51||0|2|39596|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|52||0|2|39597|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|53||0|2|39599|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|54||0|2|39601|F|mover_izquierda
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|54||0|2|39601|L|,mover_izquierda,
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|55||0|2|39601|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|57||0|2|39604|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|58||0|2|39607|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|59||0|2|39610|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|62||0|2|39612|F|puedo_mover_dcha
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|62||0|2|39612|L|,puedo_mover_dcha,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|63||0|2|39612|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|64||0|2|39613|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|65||0|2|39615|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|66||0|2|39617|F|mover_derecha
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|66||0|2|39617|L|,mover_derecha,
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|67||0|2|39617|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|68||0|2|39620|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|69||0|2|39621|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|70||0|2|39622|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|71||0|2|39625|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|72||0|2|39628|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|74||0|2|39630|F|pulsar_salir
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|74||0|2|39630|L|,pulsar_salir,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|75||0|2|39630|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|76||0|2|39633|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|77||0|2|39636|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|78||0|2|39637|F|ESPERAR
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|78||0|2|39637|L|,ESPERAR,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|79||0|2|39637|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|80||0|2|39640|F|ESPERAR1
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|80||0|2|39640|L|,ESPERAR1,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|81||0|2|39640|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|82||0|2|39641|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|83||0|2|39642|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|84||0|2|39643|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pala.asm|85||0|2|39645|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Limpieza_Pantalla.asm|2||0|2|39646|F|Limpieza_Pantalla_Inicio
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Limpieza_Pantalla.asm|2||0|2|39646|L|,Limpieza_Pantalla_Inicio,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Limpieza_Pantalla.asm|3||0|2|39646|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Limpieza_Pantalla.asm|4||0|2|39648|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Limpieza_Pantalla.asm|5||0|2|39650|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Limpieza_Pantalla.asm|6||0|2|39652|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Limpieza_Pantalla.asm|7||0|2|39654|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Limpieza_Pantalla.asm|8||0|2|39657|F|Bucle_Limpieza
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Limpieza_Pantalla.asm|8||0|2|39657|L|,Bucle_Limpieza,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Limpieza_Pantalla.asm|9||0|2|39657|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Limpieza_Pantalla.asm|10||0|2|39658|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Limpieza_Pantalla.asm|11||0|2|39659|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Limpieza_Pantalla.asm|12||0|2|39660|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Limpieza_Pantalla.asm|13||0|2|39662|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Limpieza_Pantalla.asm|15||0|2|39664|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Limpieza_Pantalla.asm|16||0|2|39665|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Limpieza_Pantalla.asm|17||0|2|39666|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Limpieza_Pantalla.asm|18||0|2|39668|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Limpieza_Pantalla.asm|19||0|2|39670|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Limpieza_Pantalla.asm|20||0|2|39672|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|1||0|-1|-1|Z|pages.size:16384,pages.count:4,slots.count:4,slots.adr:0,16384,32768,49152
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|3||0|2|39673|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|4||0|2|39675|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|6||0|2|39677|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|8||0|2|39680|F|TEXTO1
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|8||0|2|39680|L|,TEXTO1,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|9||0|2|39705|F|TEXTO2
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|9||0|2|39705|L|,TEXTO2,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|11||0|2|39738|F|Pantalla_Final_Inicio
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|11||0|2|39738|L|,Pantalla_Final_Inicio,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|12||0|2|39738|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|13||0|2|39742|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|14||0|2|39744|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|15||0|2|39746|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|16||0|2|39748|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|18||0|2|39751|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|19||0|2|39755|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|20||0|2|39757|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|21||0|2|39759|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|22||0|2|39761|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|24||0|2|39764|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|26||0|2|39767|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|27||0|2|39769|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|29||0|2|39772|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|30||0|2|39774|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|31||0|2|39776|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|32||0|2|39778|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|34||0|2|39779|F|PANTALLA_FINAL_FIN
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|34||0|2|39779|L|,PANTALLA_FINAL_FIN,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Final.asm|34||0|2|39779|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|1||0|-1|-1|Z|pages.size:16384,pages.count:4,slots.count:4,slots.adr:0,16384,32768,49152
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|4||0|2|39781|F|CUBA_Inicio
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|4||0|2|39781|L|,CUBA_Inicio,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|5||0|2|39781|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|6||0|2|39783|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|7||0|2|39785|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|10||0|2|39788|F|Fila_Superior
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|10||0|2|39788|L|,Fila_Superior,
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|11||0|2|39788|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|12||0|2|39790|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|13||0|2|39792|F|Columnas_Superior
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|13||0|2|39792|L|,Columnas_Superior,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|14||0|2|39792|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|15||0|2|39793|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|16||0|2|39794|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|17||0|2|39795|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|19||0|2|39797|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|21||0|2|39799|F|Dibuja_LateralIzquierdo
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|21||0|2|39799|L|,Dibuja_LateralIzquierdo,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|22||0|2|39799|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|23||0|2|39800|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|24||0|2|39801|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|27||0|2|39802|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|28||0|2|39803|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|29||0|2|39805|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|30||0|2|39806|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|32||0|2|39807|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|33||0|2|39808|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|35||0|2|39811|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|36||0|2|39812|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|37||0|2|39813|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|38||0|2|39814|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|40||0|2|39816|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|41||0|2|39819|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|43||0|2|39821|F|Dibuja_LateralDerecho
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|43||0|2|39821|L|,Dibuja_LateralDerecho,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|44||0|2|39821|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|45||0|2|39822|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|46||0|2|39823|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|47||0|2|39826|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|48||0|2|39827|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|49||0|2|39828|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|50||0|2|39829|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|52||0|2|39831|F|Pala_Inicio
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|52||0|2|39831|L|,Pala_Inicio,
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|53||0|2|39831|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Cuba.asm|54||0|2|39834|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Adios.asm|1||0|2|39835|F|PANTALLA_ADIOS
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Adios.asm|1||0|2|39835|L|,PANTALLA_ADIOS,
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Adios.asm|2||0|2|39835|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Adios.asm|3||0|2|39837|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Adios.asm|5||0|2|39839|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Adios.asm|6||0|2|39842|F|JUGAR
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Adios.asm|6||0|2|39842|L|,JUGAR,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Adios.asm|7||0|2|39852|F|PANTALLA_ADIOS_INICIO
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Adios.asm|7||0|2|39852|L|,PANTALLA_ADIOS_INICIO,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Adios.asm|9||0|2|39852|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Adios.asm|11||0|2|39855|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Adios.asm|12||0|2|39859|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Adios.asm|13||0|2|39861|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Adios.asm|14||0|2|39863|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Adios.asm|15||0|2|39865|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Adios.asm|16||0|2|39868|T|
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Adios.asm|17||0|2|39869|F|PANTALLA_ADIOS_FIN
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Adios.asm|17||0|2|39869|L|,PANTALLA_ADIOS_FIN,,+used
-C:\Users\Mciordia\Desktop\UFV\AOC\Nueva carpeta\Pantalla_Adios.asm|17||0|2|39869|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|1||0|-1|-1|Z|pages.size:16384,pages.count:4,slots.count:4,slots.adr:0,16384,32768,49152
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|3||0|2|32768|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|4||0|2|32771|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|5||0|2|32774|F|Jugar
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|5||0|2|32774|L|,Jugar,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|8||0|2|32795|F|inicio
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|8||0|2|32795|L|,inicio,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|9||0|2|32795|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|10||0|2|32797|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|11||0|2|32799|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|12||0|2|32802|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|13||0|2|32806|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|14||0|2|32808|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|15||0|2|32810|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|16||0|2|32812|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|17||0|2|32815|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|18||0|2|32817|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|19||0|2|32820|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|20||0|2|32823|F|fin
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|20||0|2|32823|L|,fin,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|21||0|2|32823|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|22||0|2|32825|F|Pantalla_Arkanoid
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|22||0|2|32825|L|,Pantalla_Arkanoid,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|23||0|2|32825|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|24||0|2|32828|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|25||0|2|32832|F|PARK1
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|25||0|2|32832|L|,PARK1,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|26||0|2|32832|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|27||0|2|32835|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|28||0|2|32836|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|29||0|2|32837|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|30||0|2|32839|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|31||0|2|32840|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|32||0|2|32843|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|33||0|2|32845|F|PARK2
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|33||0|2|32845|L|,PARK2,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|34||0|2|32845|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|35||0|2|32846|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|36||0|2|32847|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|37||0|2|32849|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|38||0|2|32851|F|include
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\main.asm|38||0|2|32851|L|,include,
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla inicio Arkanoid.asm|13||0|-1|-1|Z|pages.size:16384,pages.count:4,slots.count:4,slots.adr:0,16384,32768,49152
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla inicio Arkanoid.asm|15||0|2|32851|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla inicio Arkanoid.asm|32||0|2|32854|F|Main_Alumno
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla inicio Arkanoid.asm|32||0|2|32854|L|,Main_Alumno,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla inicio Arkanoid.asm|57||0|2|32854|F|LeerDataRLE
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla inicio Arkanoid.asm|57||0|2|32854|L|,LeerDataRLE,
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla inicio Arkanoid.asm|81||0|2|32854|F|EscribirNData
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla inicio Arkanoid.asm|81||0|2|32854|L|,EscribirNData,
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla inicio Arkanoid.asm|99||0|2|32854|F|RLEData
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla inicio Arkanoid.asm|99||0|2|32854|L|,RLEData,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|14||0|2|38529|F|PRINTAT
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|14||0|2|38529|L|,PRINTAT,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|14||0|2|38529|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|20||0|2|38532|F|PRINTSTR
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|20||0|2|38532|L|,PRINTSTR,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|20||0|2|38532|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|21||0|2|38535|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|22||0|2|38536|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|23||0|2|38537|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|24||0|2|38540|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|25||0|2|38542|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|32||0|2|38544|F|PREP_PRT
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|32||0|2|38544|L|,PREP_PRT,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|32||0|2|38544|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|33||0|2|38547|F|PREP_PRT_2
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|33||0|2|38547|L|,PREP_PRT_2,
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|33||0|2|38547|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|34||0|2|38550|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|45||0|2|38553|F|CRtoSCREEN
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|45||0|2|38553|L|,CRtoSCREEN,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|46||0|2|38553|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|47||0|2|38554|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|48||0|2|38556|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|49||0|2|38558|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|51||0|2|38559|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|52||0|2|38560|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|53||0|2|38562|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|54||0|2|38563|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|55||0|2|38564|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|56||0|2|38565|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|57||0|2|38566|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|58||0|2|38567|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|59||0|2|38570|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|72||0|2|38571|F|CRtoATTR
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|72||0|2|38571|L|,CRtoATTR,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|73||0|2|38571|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|74||0|2|38572|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|75||0|2|38573|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|76||0|2|38574|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|77||0|2|38575|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|78||0|2|38576|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|79||0|2|38578|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|80||0|2|38580|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|82||0|2|38581|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|83||0|2|38582|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|84||0|2|38584|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|85||0|2|38585|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|87||0|2|38586|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|88||0|2|38589|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|96||0|2|38590|F|PRINTCHNUM
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|96||0|2|38590|L|,PRINTCHNUM,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|97||0|2|38590|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|98||0|2|38592|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|99||0|2|38593|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|100||0|2|38594|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|101||0|2|38595|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|102||0|2|38596|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|103||0|2|38599|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|104||0|2|38600|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|112||0|2|38601|F|PRINTCHAR
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|112||0|2|38601|L|,PRINTCHAR,
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|113||0|2|38601|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|114||0|2|38603|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|116||0|2|38606|F|BYTEPCHAR
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|116||0|2|38606|L|,BYTEPCHAR,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|116||0|2|38606|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|117||0|2|38607|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|118||0|2|38608|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|119||0|2|38609|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|120||0|2|38610|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|121||0|2|38612|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|122||0|2|38615|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|123||0|2|38618|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|124||0|2|38619|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|125||0|2|38622|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|126||0|2|38623|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|127||0|2|38626|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|128||0|2|38627|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|137||0|2|38628|F|INK2PAPER
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|137||0|2|38628|L|,INK2PAPER,
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|137||0|2|38628|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|138||0|2|38631|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|139||0|2|38633|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|140||0|2|38634|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|141||0|2|38635|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|142||0|2|38636|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|143||0|2|38638|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|144||0|2|38641|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|150||0|2|38642|F|CLEARSCR
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|150||0|2|38642|L|,CLEARSCR,
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|150||0|2|38642|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|151||0|2|38645|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|152||0|2|38648|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|153||0|2|38651|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|154||0|2|38653|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|155||0|2|38655|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|158:1:14||0|2|38656|F|SCR_CUR_PTR
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|158:1:14||0|2|38656|L|,SCR_CUR_PTR,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|159||0|2|38658|F|SCR_ATTR_PTR
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|159||0|2|38658|L|,SCR_ATTR_PTR,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|160||0|2|38660|F|PRINT_ATTR
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|160||0|2|38660|L|,PRINT_ATTR,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|162||0|2|38661|F|CHARSET
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\printat.asm|162||0|2|38661|L|,CHARSET,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|1||0|2|39429|F|Mensa_SN
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|1||0|2|39429|L|,Mensa_SN,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|3||0|2|39431|F|leer_sn_inicio
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|3||0|2|39431|L|,leer_sn_inicio,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|4||0|2|39431|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|5||0|2|39433|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|6||0|2|39435|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|7||0|2|39437|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|8||0|2|39440|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|10||0|2|39443|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|11||0|2|39445|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|13||0|2|39447|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|14||0|2|39449|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|15||0|2|39451|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|16||0|2|39453|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|17||0|2|39454|F|Pantalla_Juego
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|17||0|2|39454|L|,Pantalla_Juego,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|23||0|2|39454|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|24||0|2|39457|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|25||0|2|39460|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|26||0|2|39461|F|LEER_SN
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|26||0|2|39461|L|,LEER_SN,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|27||0|2|39461|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|28||0|2|39462|F|LSN1
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|28||0|2|39462|L|,LSN1,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|35||0|2|39462|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|36||0|2|39464|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|37||0|2|39466|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|39||0|2|39468|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|40||0|2|39470|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|41||0|2|39472|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|42||0|2|39474|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|43||0|2|39476|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|45||0|2|39478|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|46||0|2|39480|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|47||0|2|39483|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|48||0|2|39485|F|Puls_S
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|48||0|2|39485|L|,Puls_S,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|49||0|2|39485|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|50||0|2|39487|F|LSN2
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|50||0|2|39487|L|,LSN2,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|51||0|2|39487|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|52||0|2|39490|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|53||0|2|39491|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|55||0|2|39494|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|56||0|2|39497|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|57||0|2|39499|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|58||0|2|39501|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|59||0|2|39503|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|60||0|2|39505|F|LSN3
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|60||0|2|39505|L|,LSN3,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|61||0|2|39505|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|62||0|2|39507|F|LSN4
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|62||0|2|39507|L|,LSN4,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|63||0|2|39507|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|64||0|2|39509|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|65||0|2|39511|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|66||0|2|39513|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|67||0|2|39516|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|68||0|2|39517|F|ESPERAR_SN
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|68||0|2|39517|L|,ESPERAR_SN,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|69||0|2|39517|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|70||0|2|39520|F|ESPERAR_1_SN
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|70||0|2|39520|L|,ESPERAR_1_SN,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|71||0|2|39520|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|72||0|2|39521|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|73||0|2|39522|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|74||0|2|39523|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|75||0|2|39525|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|76||0|2|39526|F|Pantalla_Adios
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|76||0|2|39526|L|,Pantalla_Adios,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|77||0|2|39526|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\leer_sn.asm|78||0|2|39529|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|1||0|2|39530|F|POSICION
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|1||0|2|39530|L|,POSICION,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|2||0|-1|5|D|LONGITUDPALA
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|2||0|-1|5|L|,LONGITUDPALA,,+equ,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|3||0|-1|18|D|COLORPALA
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|3||0|-1|18|L|,COLORPALA,,+equ,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|4||0|-1|2047|D|CONTADOR
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|4||0|-1|2047|L|,CONTADOR,,+equ,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|5||0|2|39532|F|Pala_inicio
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|5||0|2|39532|L|,Pala_inicio,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|6||0|2|39532|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|7||0|2|39535|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|8||0|2|39538|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|14||0|2|39541|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|15||0|2|39544|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|16||0|2|39546|F|DIBUJARPALA
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|16||0|2|39546|L|,DIBUJARPALA,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|17||0|2|39546|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|18||0|2|39549|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|19||0|2|39550|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|20||0|2|39552|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|21||0|2|39554|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|22||0|2|39557|F|DIBUJARPALA1
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|22||0|2|39557|L|,DIBUJARPALA1,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|23||0|2|39557|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|24||0|2|39560|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|25||0|2|39562|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|26||0|2|39565|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|27||0|2|39566|F|DIBUJARPALACOLOR
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|27||0|2|39566|L|,DIBUJARPALACOLOR,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|28||0|2|39566|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|29||0|2|39569|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|30||0|2|39571|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|31||0|2|39572|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|32||0|2|39573|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|33||0|2|39575|F|DIBUJARPALACOLOR1
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|33||0|2|39575|L|,DIBUJARPALACOLOR1,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|34||0|2|39575|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|35||0|2|39576|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|36||0|2|39577|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|37||0|2|39579|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|38||0|2|39580|F|NUEVAPOSICION
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|38||0|2|39580|L|,NUEVAPOSICION,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|39||0|2|39580|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|40||0|2|39581|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|41||0|2|39582|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|42||0|2|39583|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|43||0|2|39586|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|44||0|2|39587|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|45||0|2|39588|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|46||0|2|39589|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|47||0|2|39591|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|48||0|2|39592|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|49||0|2|39593|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|50||0|2|39596|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|51||0|2|39599|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|52||0|2|39600|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|53||0|2|39603|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|54||0|2|39604|F|ESPERAR
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|54||0|2|39604|L|,ESPERAR,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|55||0|2|39604|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|56||0|2|39607|F|ESPERAR1
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|56||0|2|39607|L|,ESPERAR1,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|57||0|2|39607|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|58||0|2|39608|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|59||0|2|39609|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|60||0|2|39610|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pala.asm|61||0|2|39612|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Limpieza_Pantalla.asm|6||0|2|39613|F|Limpieza_Pantalla_Inicio
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Limpieza_Pantalla.asm|6||0|2|39613|L|,Limpieza_Pantalla_Inicio,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Limpieza_Pantalla.asm|12||0|2|39613|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Limpieza_Pantalla.asm|13||0|2|39615|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Limpieza_Pantalla.asm|14||0|2|39617|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Limpieza_Pantalla.asm|15||0|2|39619|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Limpieza_Pantalla.asm|16||0|2|39621|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Limpieza_Pantalla.asm|17||0|2|39624|F|Bucle_Limpieza
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Limpieza_Pantalla.asm|17||0|2|39624|L|,Bucle_Limpieza,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Limpieza_Pantalla.asm|23||0|2|39624|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Limpieza_Pantalla.asm|24||0|2|39625|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Limpieza_Pantalla.asm|25||0|2|39626|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Limpieza_Pantalla.asm|26||0|2|39627|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Limpieza_Pantalla.asm|27||0|2|39629|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Limpieza_Pantalla.asm|29||0|2|39631|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Limpieza_Pantalla.asm|30||0|2|39632|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Limpieza_Pantalla.asm|31||0|2|39633|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Limpieza_Pantalla.asm|32||0|2|39635|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Limpieza_Pantalla.asm|33||0|2|39637|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Limpieza_Pantalla.asm|34||0|2|39639|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|1||0|-1|-1|Z|pages.size:16384,pages.count:4,slots.count:4,slots.adr:0,16384,32768,49152
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|3||0|2|39640|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|4||0|2|39642|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|6||0|2|39644|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|8||0|2|39647|F|TEXTO1
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|8||0|2|39647|L|,TEXTO1,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|9||0|2|39672|F|TEXTO2
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|9||0|2|39672|L|,TEXTO2,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|11||0|2|39705|F|Pantalla_Final_Inicio
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|11||0|2|39705|L|,Pantalla_Final_Inicio,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|12||0|2|39705|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|16||0|2|39709|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|17||0|2|39711|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|18||0|2|39713|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|19||0|2|39715|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|21||0|2|39718|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|22||0|2|39722|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|23||0|2|39724|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|24||0|2|39726|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|25||0|2|39728|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|27||0|2|39731|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|29||0|2|39734|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|30||0|2|39736|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|32||0|2|39739|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|33||0|2|39741|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|34||0|2|39743|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|35||0|2|39745|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|37||0|2|39746|F|PANTALLA_FINAL_FIN
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|37||0|2|39746|L|,PANTALLA_FINAL_FIN,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Final.asm|37||0|2|39746|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|1||0|-1|-1|Z|pages.size:16384,pages.count:4,slots.count:4,slots.adr:0,16384,32768,49152
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|4||0|2|39748|F|CUBA_Inicio
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|4||0|2|39748|L|,CUBA_Inicio,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|5||0|2|39748|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|6||0|2|39750|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|7||0|2|39752|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|10||0|2|39755|F|Fila_Superior
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|10||0|2|39755|L|,Fila_Superior,
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|11||0|2|39755|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|12||0|2|39757|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|13||0|2|39759|F|Columnas_Superior
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|13||0|2|39759|L|,Columnas_Superior,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|14||0|2|39759|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|15||0|2|39760|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|16||0|2|39761|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|17||0|2|39762|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|19||0|2|39764|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|21||0|2|39766|F|Dibuja_LateralIzquierdo
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|21||0|2|39766|L|,Dibuja_LateralIzquierdo,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|22||0|2|39766|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|23||0|2|39767|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|24||0|2|39768|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|27||0|2|39769|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|28||0|2|39770|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|29||0|2|39772|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|30||0|2|39773|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|32||0|2|39774|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|33||0|2|39775|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|35||0|2|39778|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|36||0|2|39779|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|37||0|2|39780|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|38||0|2|39781|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|40||0|2|39783|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|41||0|2|39786|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|43||0|2|39788|F|Dibuja_LateralDerecho
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|43||0|2|39788|L|,Dibuja_LateralDerecho,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|44||0|2|39788|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|45||0|2|39789|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|46||0|2|39790|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|47||0|2|39793|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|48||0|2|39794|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|49||0|2|39795|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|50||0|2|39796|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|52||0|2|39798|F|Llamado_pala
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|52||0|2|39798|L|,Llamado_pala,
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|53||0|2|39798|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Cuba.asm|54||0|2|39801|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Adios.asm|1||0|2|39802|F|PANTALLA_ADIOS
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Adios.asm|1||0|2|39802|L|,PANTALLA_ADIOS,
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Adios.asm|2||0|2|39802|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Adios.asm|3||0|2|39804|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Adios.asm|5||0|2|39806|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Adios.asm|6||0|2|39809|F|JUGAR
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Adios.asm|6||0|2|39809|L|,JUGAR,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Adios.asm|7||0|2|39819|F|PANTALLA_ADIOS_INICIO
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Adios.asm|7||0|2|39819|L|,PANTALLA_ADIOS_INICIO,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Adios.asm|9||0|2|39819|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Adios.asm|11||0|2|39822|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Adios.asm|16||0|2|39826|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Adios.asm|17||0|2|39828|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Adios.asm|18||0|2|39830|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Adios.asm|20||0|2|39832|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Adios.asm|22||0|2|39835|F|PANTALLA_ADIOS_FIN
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Adios.asm|22||0|2|39835|L|,PANTALLA_ADIOS_FIN,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Pantalla_Adios.asm|22||0|2|39835|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|1||0|2|39837|F|TECLADO
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|1||0|2|39837|L|,TECLADO,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|2||0|2|39837|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|3||0|2|39839|F|TECLADO1
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|3||0|2|39839|L|,TECLADO1,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|4||0|2|39839|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|5||0|2|39842|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|6||0|2|39844|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|7||0|2|39846|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|8||0|2|39848|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|9||0|2|39850|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|10||0|2|39853|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|11||0|2|39855|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|12||0|2|39857|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|13||0|2|39859|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|14||0|2|39861|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|15||0|2|39862|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|16||0|2|39864|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|17||0|2|39866|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|18||0|2|39867|F|TECLADO2
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|18||0|2|39867|L|,TECLADO2,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|24||0|2|39867|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|25||0|2|39869|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|26||0|2|39871|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|28||0|2|39873|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|29||0|2|39875|F|TECLADO3
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|29||0|2|39875|L|,TECLADO3,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|35||0|2|39875|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|36||0|2|39877|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|38||0|2|39879|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|39||0|2|39882|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|40||0|2|39885|F|TECLADO4
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|40||0|2|39885|L|,TECLADO4,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|46||0|2|39885|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|47||0|2|39887|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|48||0|2|39889|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|50||0|2|39891|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|51||0|2|39893|F|TECLADOFIN
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|51||0|2|39893|L|,TECLADOFIN,,+used
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|52||0|2|39893|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|53||0|2|39894|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|54||0|2|39895|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|55||0|2|39896|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|56||0|2|39897|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|57||0|2|39898|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|58||0|2|39899|T|
+C:\Users\javie\OneDrive\Documentos\GitHub\Arkanoid-Z80\Arkanoid1\Teclado.asm|59||0|2|39901|T|
