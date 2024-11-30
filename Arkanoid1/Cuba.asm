@@ -50,6 +50,6 @@ Dibuja_LateralDerecho:
     JR NZ, Dibuja_LateralDerecho  ; Repetir hasta completar las 22 filas
 
 Llamado_pala:
+    CALL leer_mapa
     CALL Pala_inicio
     RET
-

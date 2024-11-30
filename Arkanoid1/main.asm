@@ -45,3 +45,5 @@ include:
     include "Cuba.asm"
     include "Pantalla_Adios.asm"
     include "Teclado.asm"
+    include "ImprimirMapa.asm"
+    include "Mapas.asm"

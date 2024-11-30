@@ -36,7 +36,8 @@ TECLADO3:
     JR NZ, TECLADO1
 
     CALL Limpieza_Pantalla_Inicio
-    CALL Pantalla_Final_Inicio
+    call CUBA_Inicio
+    CALL leer_mapa
 TECLADO4:
 
     ; ---------------
