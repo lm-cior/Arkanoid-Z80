@@ -1,15 +1,31 @@
-variable: db 0, 1, 2 3
+variable: db 0
 leer_mapa:
-    
-    ; dirección de memoria del mapa
-    
+        
     push hl : push bc : push de
 
-    ld hl, (maplist)
+    ld a, (variable)
 
-    cp maxLevelsMask
+    ld b, maxLevelsMask
+
+    inc b
+
+    cp b
 
     jr z, final_programa
+
+    ld hl, maplist
+
+    ld c, a
+    ld b, 0
+
+    add hl, bc
+    add hl, bc
+
+    inc a
+    ld (variable), a
+
+    ld de, (hl)
+    ld hl, de
 
     inc hl
 
@@ -49,8 +65,11 @@ bucle_mapa:
     
     push bc
     ld c, a
+    cp 8
+    jr z, suma_atributo
     sla a: sla a: sla a
     add a, c
+continuacion:
     pop bc
 
     push bc
@@ -80,3 +99,6 @@ map_end:
 final_programa:
     call Limpieza_Pantalla_Inicio
     call Pantalla_Final_Inicio
+suma_atributo:
+    sla a: sla a: sla a
+    jr continuacion

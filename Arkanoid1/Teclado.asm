@@ -1,3 +1,5 @@
+CRONO1: DB $FF
+CRONO2: DB $01
 TECLADO:
     LD D, 0
 TECLADO1:
@@ -29,15 +31,30 @@ TECLADO2:
 TECLADO3:
 
     ; ---------------
-    ; Si el usuario teclea la F se muestra pantalla de fin
+    ; Si el usuario teclea la F se cambia de mapa
     ; ---------------
 
     BIT 3, A
     JR NZ, TECLADO1
 
+    LD B, A
+    LD A, (CRONO1)
+    DEC A
+    LD (CRONO1), A
+    CP 0
+    LD A, B
+    JR NZ, TECLADO4
+DESCENSO:
+    LD B, A
+    LD A, (CRONO2)
+    DEC A
+    LD (CRONO2), A
+    CP 0    
+    LD A, B
+    JR NZ, TECLADO4
+
     CALL Limpieza_Pantalla_Inicio
-    call CUBA_Inicio
-    CALL leer_mapa
+    CALL CUBA_Inicio
 TECLADO4:
 
     ; ---------------

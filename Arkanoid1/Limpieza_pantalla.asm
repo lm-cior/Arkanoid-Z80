@@ -31,4 +31,16 @@ Bucle_Limpieza:
     CP 25
     LD A, 0
     JR C, Bucle_Limpieza
+
+    LD HL, $5B00
+
+Bucle_atributos:
+    LD (HL), B
+    INC HL
+    LD A, H
+
+    CP $60
+
+    JR NZ, Bucle_atributos
+
     RET

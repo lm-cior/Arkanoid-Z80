@@ -19,7 +19,8 @@ Pantalla_Juego:
     ; ------------------------------------------------------------
     ; Rutina para llamar a otros métodos
     ; ------------------------------------------------------------
-
+    ld a, 0
+    ld (variable), a ; reseteamos el contador de mapas a 0 cada que se reinicie la partida    
     CALL Limpieza_Pantalla_Inicio
     CALL CUBA_Inicio
     RET
